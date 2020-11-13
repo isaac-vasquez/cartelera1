@@ -1,0 +1,200 @@
+:root {
+    --blue: #083256;
+}
+
+body {
+    /* Imatge de fons de la pàgina */
+    background-image: url('../img/fons.jpg');
+    text-align: center;
+}
+
+.base1 {
+    background-image: url('../img/fons_pelis.png');
+}
+
+#main {
+    width: 680px;
+    margin: auto;
+    padding-left: 35px;
+    background-image: url('../img/fons_pelis.png');
+}
+
+#main2 {
+    margin: auto;
+    width: 90%;
+    font-family: Arial;
+}
+
+#listado {
+    text-align: left;
+    /*padding-left:40px;*/
+}
+
+#pie {
+    color: #ffffff;
+    padding: 10px 0px 10px 10px;
+    background-color: var(--blue);
+    text-align: center;
+}
+
+
+/* Propietats del títol de la pàgina */
+
+h1 {
+    font: bold italic 18px Arial;
+    color: #ffffff;
+    background: url('../img/palomita.png') no-repeat 7px 7px;
+    padding: 10px 0px 30px 40px;
+    background-color: var(--blue);
+    text-align: left;
+    margin: 0;
+}
+
+.h1-2 {
+    font: bold italic 18px Arial;
+    color: #ffffff;
+    background: url('../img/palomita.png') no-repeat 7px 7px;
+    padding: 10px 0px 10px 50px;
+    background-color: var(--blue);
+    text-align: left;
+    margin: 0;
+}
+
+hr {
+    border-style: dotted;
+    color: var(--blue);
+}
+
+
+/* classe de l'etiqueta bloc de cada pel·lícula */
+
+.pelicula {
+    height: 140px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pelicula2 {
+    height: auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 0px;
+    border-top: 1px dotted var(--blue);
+    border-bottom: 1px dotted var(--blue);
+}
+
+.img-polisse {
+    padding-left: 100px;
+    background: url("../img/peli_1.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-hugo {
+    padding-left: 112px;
+    background: url("../img/peli_2.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-marilyn {
+    padding-left: 112px;
+    background: url("../img/peli_3.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-horse {
+    padding-left: 112px;
+    background: url("../img/peli_4.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-blanco {
+    padding-left: 112px;
+    background: url("../img/peli_5.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-negro {
+    padding-left: 112px;
+    background: url("../img/peli_6.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.img-tierra {
+    padding-left: 112px;
+    background: url("../img/peli_7.jpg") no-repeat center left;
+    background-size: 80px 112.4px;
+    min-height: 120px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.rigth-container {
+    padding: 10px;
+    color: var(--blue);
+}
+
+.título-pelicula {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.web-info {
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 10px;
+    background-color: #FFFFBF;
+}
+
+.imagen-peli {
+    width: 100%;
+}
+
+.divider-dotted {
+    margin-top: 30px;
+}
+
+
+/* Propietats del títol de la pel·lícula */
+
+.pelicula h2 {
+    padding: 0;
+    padding-top: 10px;
+    margin: 3px;
+    font: bold 16px Arial;
+    color: #083256;
+}
+
+
+/* Propietats de la descripció pel·lícula */
+
+.pelicula p {
+    padding: 0;
+    margin: 3px;
+    font: normal 12px Arial;
+    color: #083256;
+    padding-bottom: 20px;
+}
+
+
+/* Propietats dels enllaços */
+
+.pelicula a {
+    color: blue;
+}
+
+.pelicula a:hover {
+    color: orange;
+    font: normal 15px Arial;
+}
